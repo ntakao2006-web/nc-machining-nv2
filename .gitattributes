@@ -1,0 +1,4 @@
+*.md text eol=lf
+*.cwdb binary
+*.ctl -text
+*.lng -text
