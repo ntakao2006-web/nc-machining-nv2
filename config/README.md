@@ -61,4 +61,4 @@ Copy-Item "C:\ProgramData\SOLIDWORKS\SOLIDWORKS CAM 2026\TechDB","C:\ProgramData
 
 ## 未確定事項
 
-- ポストの元になったソースファイル（`.SRC`。`docs/cam/05` に出てくる `CALC_INIT_CODES` はこの中にある）は、2026年度の担当者の PC 上で見つかっていない。`.ctl` だけでも動くが、ポストを編集するにはソースが要る可能性がある
+- ポストの元になったソースファイル（`.SRC` と `.LIB`。`docs/cam/05` に出てくる `CALC_INIT_CODES` はこの中にある）は、2026年度の担当者の PC の `C:\CAMWorksData\UPG-2\MyPosts\` にある（2026-11-13 に確認）。**このリポジトリにはまだ置いていない。** `.ctl` だけでも動くが、ポストを直すにはソースが要る。ソースの読み方と直し方は [`../docs/cam/05-post-and-tool-change.md`](../docs/cam/05-post-and-tool-change.md) の「ポストの構造と直し方（UPG）」
