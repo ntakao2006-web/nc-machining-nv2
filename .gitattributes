@@ -2,3 +2,5 @@
 *.cwdb binary
 *.ctl -text
 *.lng -text
+*.SRC -text
+*.LIB -text

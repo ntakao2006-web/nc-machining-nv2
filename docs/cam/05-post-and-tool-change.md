@@ -124,7 +124,8 @@ SOLIDWORKS CAM のポストは、付属のポスト作成ツール（UPG＝Unive
 | `.LIB` | ソースと組になるライブラリ | バイナリ。UPG のエディタ経由でしか編集できない |
 | `.ctl`／`.lng` | ソースをコンパイルしたもの。**CAM が実際に使うのはこれ** | バイナリ |
 
-- 2026年度のソースは、担当者の PC の `C:\CAMWorksData\UPG-2\MyPosts\` にある（`iwashita_NV2_posts.SRC`／`.LIB`）。
+- 2026年度のソースは [`config/posts/src/`](../../config/README.md) に置いてある（`iwashita_NV2_posts.SRC`／`.LIB`）。
+  直すときは、自分の PC の `C:\CAMWorksData\UPG-2\MyPosts\` に置いて使う。
   共通ライブラリ `C:\CAMWorksData\UPG-2\MasterLibraryFiles\MILL.LIB` を参照している
 - **`.SRC`を書き換えただけでは何も変わらない。** UPG で開いてコンパイルし、できた`.ctl`／`.lng`が
   CAM のポストのフォルダ（[`config/README.md`](../../config/README.md)）に入って初めて効く
