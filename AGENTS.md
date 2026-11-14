@@ -69,7 +69,7 @@ CAM の画面での設定変更は、ユーザー自身に操作してもらい�
 | CAM で実際に起きた問題と対処 | `docs/cam/06-troubleshooting.md` | 新しい事例は `##` 見出しで足す |
 | SolidWorks のその他のノウハウ | `docs/solidworks/` | |
 | 削りやすい形にするための設計上の注意 | `docs/design/` | 特定の部品の寸法ではなく、どの部品にも当てはまることだけを書く |
-| 自作のスクリプト（NCコードのチェック、SolidWorks を Python から動かして部品を作る道具） | `tools/` | 自作なので公開してよい。使い方は `tools/README.md` |
+| NCコードのチェックを手伝うスクリプト | `tools/` | 自作なので公開してよい。使い方は `tools/README.md` |
 | ポストの実物とソース | `config/posts/`（ソースは `config/posts/src/`） | 自作なので公開してよい。入れ方・更新の戻し方は `config/README.md` |
 | TechDB の実物（`TechDB.cwdb`） | **リポジトリには置かない。** 管理者が仲間うちで手渡しする | メーカーのサンプルデータを含み、公開すると利用規約に触れるおそれがあるため。変えた設定は `docs/cam/` に文章で書く（`config/README.md`） |
 | AI エージェントでの使い方（初めての人向け） | `README.md` の「AI に聞きながら使う」と `docs/onboarding/` | このリポジトリ単体で分かるように書く。特定の AI だけの手順にしない |

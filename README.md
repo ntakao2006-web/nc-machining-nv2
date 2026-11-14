@@ -144,9 +144,9 @@ AI は書いた内容を見せて「記録していいですか」と聞いて�
 | ファナックのマニュアルを調べる（NotebookLM） | [`docs/machine/manuals.md`](./docs/machine/manuals.md) |
 | SOLIDWORKS CAM でプログラムを作る | [`docs/cam/`](./docs/cam/)（番号順に読む） |
 | ポストの実物と、TechDB・ポストを自分の PC に入れる方法（TechDB は管理者から手渡し） | [`config/`](./config/README.md) |
-| SolidWorks のその他のノウハウ（CAM のタブが消える、Python からの操作・AI に部品を作らせる、テンプレートの軸の向き、ガーバー出力） | [`docs/solidworks/`](./docs/solidworks/) |
+| SolidWorks のその他のノウハウ（CAM のタブが消える、ガーバー出力） | [`docs/solidworks/`](./docs/solidworks/) |
 | 削りやすい形に設計する（内隅のR、細い溝など） | [`docs/design/machinability.md`](./docs/design/machinability.md) |
-| 自作のスクリプト（NCコードのチェック、SolidWorks を Python から動かして部品を作る） | [`tools/`](./tools/README.md) |
+| NCコードのチェックを手伝うスクリプト | [`tools/`](./tools/README.md) |
 | AI エージェントでの使い方（詳しい説明） | [`docs/onboarding/`](./docs/onboarding/README.md) |
 | AI エージェント向けのルール | [`AGENTS.md`](./AGENTS.md) |
 
